@@ -6,8 +6,6 @@ import { Component, OnInit } from '@angular/core';
   <h2>
     Welcome {{name}}
   </h2>
-  <h1>T12 Structural Directives</h1>
-
 
   <h1>T11 Two Way Binding</h1>
   <input [(ngModel)]="name" type="text">
