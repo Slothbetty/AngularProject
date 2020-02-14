@@ -1,0 +1,9 @@
+<div style="text-align: center">
+<h1>
+  {{message}}
+</h1>
+<h1>
+  {{message2}}
+</h1>
+</div>
+<app-test (childEvent)="message=$event" (childEvent2)="message2=$event" [parentData]="name"></app-test>
